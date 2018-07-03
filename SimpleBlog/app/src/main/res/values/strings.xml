@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">SimpleBlog</string>
-    <string name="post_title">Post Title</string>
-    <string name="post_details">Post Details</string>
-    <string name="submit">Submit</string>
-</resources>
