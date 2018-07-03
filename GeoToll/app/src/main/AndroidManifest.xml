@@ -24,10 +24,10 @@
         </activity>
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB2OWaNcDxW6IjtS3clVHjz-Tg6O0Ndae8"/>
+            android:value="ENTER_YOUR_KEY"/>
         <meta-data
             android:name="com.razorpay.ApiKey"
-            android:value="rzp_test_M3WfVsuu9gjnjg" />
+            android:value="ENTER_YOUR_KEY" />
     </application>
 
 </manifest>
