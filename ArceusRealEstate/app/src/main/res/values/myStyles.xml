@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textMain">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#4c4b4f</item>
+    </style>
+    <style name="buttonStyle">
+        <item name="android:background">#4c4b4f</item>
+        <item name="android:textColor">#e3e2e0</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="nav_title_style">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#e3e2e0</item>
+    </style>
+    <style name="card_text">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#4c4b4f</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textMain.modtext">
+        <item name="android:textColor">#e3e2e0</item>
+        <item name="android:background">#4c4b4f</item>
+    </style>
+</resources>

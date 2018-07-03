@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ChanseyNotification</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Chansey</string>
+    <string name="textview_text">TRAINER IS READY TO BE NOTIFIED</string>
+</resources>

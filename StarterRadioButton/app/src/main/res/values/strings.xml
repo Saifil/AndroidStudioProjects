@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StarterRadioButton</string>
+    <string name="action_settings">Settings</string>
+    <string name="radiobutton_one">FIRE</string>
+    <string name="radiobutton_two">WATER</string>
+    <string name="radiobutton_three">GRASS</string>
+    <string name="textview_view">SELECT STARTER POKEMON</string>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saifil.power.LoginActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/login"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login_id"
+        android:layout_alignStart="@+id/btn_login_id"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="57dp"
+        android:background="@drawable/layout_btn"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login_id"
+        android:layout_alignStart="@+id/btn_login_id"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/layout_btn"
+        android:ems="10"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login_id"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:background="@color/colorPrimary"
+        android:onClick="login_verify"
+        android:text="@string/signin"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/reg_text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btn_login_id"
+        android:layout_alignStart="@+id/btn_login_id"
+        android:layout_below="@+id/btn_login_id"
+        android:layout_marginTop="21dp"
+        android:onClick="to_registration"
+        android:text="@string/not_a_user_yet_register_here"
+        android:textSize="16sp" />
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.arcaninedataapp.MainActivityArcanine"
+    tools:showIn="@layout/activity_main_arcanine">
+
+    <EditText
+        android:id="@+id/ip_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:width="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/name_txt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ip_txt"
+        android:layout_alignStart="@+id/ip_txt"
+        android:layout_below="@+id/ip_txt"
+        android:layout_marginTop="66dp"
+        android:width="120dp"
+        android:onClick="onDataAdd"
+        android:text="@string/button_add"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_add"
+        android:layout_alignBottom="@+id/btn_add"
+        android:layout_alignEnd="@+id/ip_txt"
+        android:layout_alignRight="@+id/ip_txt"
+        android:width="120dp"
+        android:onClick="onDataDelete"
+        android:text="@string/button_delete"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="83dp"
+        android:text="@string/display_Datatext"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn_add"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/textview_4"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ip_txt"
+        android:layout_alignStart="@+id/ip_txt"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ArcanineDataApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_txt"></string>
+    <string name="button_add">ADD</string>
+    <string name="button_delete">DELETE</string>
+    <string name="display_Datatext">ARCANINE IS ASLEEP</string>
+    <string name="textview_4">ADD/DELETE MOVESET</string>
+</resources>

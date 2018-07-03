@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GeoToll</string>
+    <string name="text_home">Home</string>
+    <string name="text_map">Map</string>
+    <string name="text_payments">Payment</string>
+    <string name="text_account">Account</string>
+    <string name="text_hometxt">You are Home</string>
+    <string name="text_qr">QR code</string>
+    <string name="Qrdisplaytext">QR code will be displayed here</string>
+    <string name="paytext_text">payment gateway</string>
+    <string name="logout">Logout</string>
+    <string name="signout">Signout</string>
+    <string name="search">Search</string>
+    <string-array name="journeyType">
+        <item>Single</item>
+        <item>Return</item>
+    </string-array>
+    <string-array name="VehicleType">
+        <item>Truck</item>
+        <item>4 Wheeler</item>
+        <item>2 Wheeler</item>
+    </string-array>
+    <string-array name="array_entry_toll">
+        <item>Select a Toll</item>
+    </string-array>
+</resources>

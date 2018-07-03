@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EeveeIntents</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_main">EEVEE</string>
+    <string name="button_fire">FIRE</string>
+    <string name="button_water">WATER</string>
+    <string name="button_lightning">ELECTRIC</string>
+    <string name="title_activity_water">ActivityWater</string>
+    <string name="textview_water">VAPOREON</string>
+    <string name="title_activity_fire">ActivityFire</string>
+    <string name="textview_wtr">FLAREON</string>
+    <string name="title_activity_electric">ActivityElectric</string>
+    <string name="textview_electric_txt1">JOLTEON</string>
+    <string name="textview_top_wtr_txt">its-a-me-vaporeon</string>
+</resources>

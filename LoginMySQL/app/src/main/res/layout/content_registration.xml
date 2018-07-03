@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4ebaaa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.loginmysql.RegistrationActivity"
+    tools:showIn="@layout/activity_registration">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="56dp"
+        android:text="@string/name"
+        android:textSize="18sp"
+        style="@style/textFreeColor"/>
+
+    <EditText
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="11dp"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType="textPersonName"
+        style="@style/editTextStyles"/>
+
+    <EditText
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/first_name"
+        android:layout_alignBottom="@+id/first_name"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="57dp"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType="textPersonName"
+        style="@style/editTextStyles"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/first_name"
+        android:layout_alignStart="@+id/first_name"
+        android:layout_below="@+id/first_name"
+        android:layout_marginTop="21dp"
+        android:text="@string/username"
+        android:textSize="18sp"
+        style="@style/textFreeColor"/>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="11dp"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/username_name"
+        android:inputType="textPersonName"
+        style="@style/editTextStyles"/>
+
+    <EditText
+        android:id="@+id/date_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/user_name"
+        android:layout_alignBottom="@+id/user_name"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/date_box"
+        android:inputType="date"
+        style="@style/editTextStyles"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/user_name"
+        android:layout_alignLeft="@+id/last_name"
+        android:layout_alignStart="@+id/last_name"
+        android:text="@string/date"
+        android:textSize="18sp"
+        style="@style/textFreeColor"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/user_name"
+        android:layout_alignStart="@+id/user_name"
+        android:layout_below="@+id/date_id"
+        android:layout_marginTop="20dp"
+        android:text="@string/password"
+        android:textSize="18sp"
+        style="@style/textFreeColor"/>
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/password_box"
+        android:inputType="textPassword"
+        style="@style/editTextStyles"/>
+
+    <EditText
+        android:id="@+id/con_pass_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pass_id"
+        android:layout_alignBottom="@+id/pass_id"
+        android:layout_alignLeft="@+id/date_id"
+        android:layout_alignStart="@+id/date_id"
+        android:width="120dp"
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        style="@style/editTextStyles"/>
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:width="180dp"
+        android:onClick="makeEntry"
+        android:text="@string/signup"
+        android:textSize="18sp" />
+<!--
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="@string/registration_form"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/textFreeColor"/>
+-->
+    <TextView
+        android:id="@+id/signup_redirect_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:onClick="redirectLogin"
+        android:text="@string/signup_text" />
+
+
+</RelativeLayout>

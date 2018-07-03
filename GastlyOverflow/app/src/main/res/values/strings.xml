@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GastlyOverflow</string>
+    <string name="action_settings">Settings</string>
+    <string name="fire_string">Fire</string>
+    <string name="water_string">Water</string>
+    <string name="grass_string">Grass</string>
+    <string name="textviewValueOverFlow">TextView</string>
+</resources>

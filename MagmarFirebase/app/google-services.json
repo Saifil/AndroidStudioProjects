@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "939343151735",
+    "firebase_url": "https://magmarfirebase.firebaseio.com",
+    "project_id": "magmarfirebase",
+    "storage_bucket": "magmarfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:939343151735:android:a3372afecca754a9",
+        "android_client_info": {
+          "package_name": "com.example.saifil.magmarfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "939343151735-4m1ucku57ab9qcokn19rm9nffdiob0vi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saifil.magmarfirebase",
+            "certificate_hash": "b0f7df882ed6ffc08464bbfb2613f9a3243c9912"
+          }
+        },
+        {
+          "client_id": "939343151735-nasnkub6r1rdeh6191apn4gtb4ei2h4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCJyyjfVVvyoqTTNaz-Tev3vGv16wbbSA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "939343151735-nasnkub6r1rdeh6191apn4gtb4ei2h4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

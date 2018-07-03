@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5A068"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.eeveeintents.MainActivityEevee"
+    tools:showIn="@layout/activity_main_eevee">
+
+    <Button
+        android:id="@+id/btn_light_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="100dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/button_lightning"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignBaseline="@+id/btn_water_two"
+        android:layout_alignBottom="@+id/btn_water_two"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="onClickElectric"/>
+
+    <Button
+        android:id="@+id/btn_water_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_eevee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:width="100dp"
+        android:onClick="onClickWater"
+        android:text="@string/button_water" />
+
+    <Button
+        android:id="@+id/btn_fire_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btn_water_two"
+        android:layout_alignBottom="@+id/btn_water_two"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:width="100dp"
+        android:onClick="onClickFire"
+        android:text="@string/button_fire" />
+
+    <TextView
+        android:id="@+id/textView_eevee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_main"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp" />
+
+    <EditText
+        android:id="@+id/firstinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView_eevee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:width="240dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

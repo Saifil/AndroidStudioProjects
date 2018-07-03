@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arceusback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.arceusrealestate.MainActivityArceus"
+    tools:showIn="@layout/activity_main_arceus">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="@string/title_text" />
+
+    <EditText
+        android:id="@+id/usr_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:width="320dp"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:textColorLink="#242327" />
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usr_id"
+        android:layout_alignStart="@+id/usr_id"
+        android:layout_below="@+id/usr_id"
+        android:layout_marginTop="24dp"
+        android:width="320dp"
+        android:ems="10"
+        android:hint="@string/pass_word"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_btn_id"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:onClick="onLogin"
+        android:text="@string/login_click" />
+</RelativeLayout>

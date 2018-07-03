@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LoginMySQL</string>
+    <string name="action_settings">Settings</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="username_name">username</string>
+    <string name="date">Date</string>
+    <string name="date_box">Date</string>
+    <string name="password">Password</string>
+    <string name="password_box">Password</string>
+    <string name="confirm_password">Confirm</string>
+    <string name="login">Login</string>
+    <string name="signup">signup</string>
+    <string name="your_info">Your Info</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="go">sign in</string>
+    <string name="my_redirect_text">Not a member yet? <u>Click here</u></string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="signup_text">Already a member? <u>Login</u></string>
+</resources>

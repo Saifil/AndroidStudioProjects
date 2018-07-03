@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saifil.simpleblog.PostActivity">
+
+    <ImageButton
+        android:id="@+id/imgselect_id"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:maxHeight="232dp"
+        android:minHeight="150dp"
+        android:minWidth="150dp"
+        android:onClick="onImageButtonClicked"
+        android:scaleType="centerCrop"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <EditText
+        android:id="@+id/title_id"
+        style="@style/inputText"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgselect_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="@string/post_title"
+        android:inputType="textPersonName"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/details_id"
+        style="@style/inputText"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:hint="@string/post_details"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submit_btn_id"
+        style="@style/buttonStyle"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onPostSubmit"
+        android:text="@string/submit" />
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OnixListView</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_txt_img">Custom Text</string>
+</resources>

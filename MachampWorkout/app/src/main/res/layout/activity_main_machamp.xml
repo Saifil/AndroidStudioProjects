@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saifil.machampworkout.MainActivityMachamp">
+
+
+    <TextView
+        android:id="@+id/txtViewWrk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textviewhue"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mybtnViewwrk"
+        android:layout_marginTop="95dp"/>
+
+    <Spinner
+        android:id="@+id/workouttypeSpn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="320dp"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:entries="@array/workoutItem"/>
+
+    <Button
+        android:id="@+id/mybtnViewwrk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="59dp"
+        android:text="@string/go_to_work"
+        android:onClick="onClickFindWorkout"
+        android:layout_below="@+id/workouttypeSpn"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pichu</string>
+    <string name="buttonName">Go</string>
+    <string name="headingName">Login</string>
+</resources>

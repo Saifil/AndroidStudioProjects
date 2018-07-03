@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.kecleonimageeffects.MainActivityKecleon"
+    tools:showIn="@layout/activity_main_kecleon">
+
+    <ImageView
+        android:id="@+id/img_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:minHeight="300dp"
+        android:minWidth="300dp" />
+
+    <Button
+        android:id="@+id/my_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/my_btn_two"
+        android:layout_alignEnd="@+id/my_btn_two"
+        android:layout_alignRight="@+id/my_btn_two"
+        android:onClick="invertImage"
+        android:text="@string/button_text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/my_btn_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:width="156dp"
+        android:onClick="applyFilter"
+        android:text="@string/button_two"
+        android:textSize="18sp" />
+</RelativeLayout>

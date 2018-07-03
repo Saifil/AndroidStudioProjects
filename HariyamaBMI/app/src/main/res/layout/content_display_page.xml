@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_disp_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hariyamaback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.hariyamabmi.DisplayPage"
+    tools:showIn="@layout/activity_display_page">
+
+    <TextView
+        android:id="@+id/text_onetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="69dp"
+        android:background="#0a5789"
+        android:padding="5dp"
+        android:text="@string/textview_bmi_res"
+        android:textColor="#e6e3dd"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+    <TextView
+        android:id="@+id/result_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_onetwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="134dp"
+        android:background="#0a5789"
+        android:padding="5dp"
+        android:textColor="#e6e3dd"
+        android:textSize="22sp"
+        android:text="@string/textview_re_text"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="199dp" />
+
+    <TextView
+        android:id="@+id/bmi_disp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_onetwo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:background="#0a5789"
+        android:padding="5dp"
+        android:text="@string/my_num"
+        android:textColor="#e6e3dd"
+        android:textSize="32sp" />
+</RelativeLayout>

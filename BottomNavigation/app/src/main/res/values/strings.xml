@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="text_home">Home</string>
+    <string name="text_explore">Explore</string>
+    <string name="text_chat">Chat</string>
+    <string name="text_account">Account</string>
+    <string name="textview_textone">TextView</string>
+    <string name="homeText">Look mom im home</string>
+    <string name="myAccText">Look ma\'am my account</string>
+    <string name="logout">Logout</string>
+    <string name="add_user">ADD USER</string>
+</resources>

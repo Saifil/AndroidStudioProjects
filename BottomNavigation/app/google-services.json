@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "513174933805",
+    "firebase_url": "https://simpleblog-3d2c5.firebaseio.com",
+    "project_id": "simpleblog-3d2c5",
+    "storage_bucket": "simpleblog-3d2c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513174933805:android:91458da4eee1c0ed",
+        "android_client_info": {
+          "package_name": "com.example.saifil.bottomnavigation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513174933805-0nhi8hl3eo8aohc4c4a9v3t3map1r7gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saifil.bottomnavigation",
+            "certificate_hash": "b0f7df882ed6ffc08464bbfb2613f9a3243c9912"
+          }
+        },
+        {
+          "client_id": "513174933805-8ppg5kolgni38hlkkq45s58fffhmm9qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3bqA3bSKhkBuJ-e40xak2GwsNubQo-U8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513174933805-8ppg5kolgni38hlkkq45s58fffhmm9qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

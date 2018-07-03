@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MachampWorkout</string>
+    <string name="textviewhue">CHAMP CHAMP MACHAMP</string>
+    <string name="go_to_work">GO</string>
+
+    <string-array name="workoutItem">
+        <item>Chest</item>
+        <item>Biceps</item>
+        <item>Legs</item>
+        <item>Abs</item>
+    </string-array>
+
+</resources>

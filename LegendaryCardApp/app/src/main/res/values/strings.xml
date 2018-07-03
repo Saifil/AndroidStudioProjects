@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LegendaryCardApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="card_one_name">MOLTRES</string>
+</resources>

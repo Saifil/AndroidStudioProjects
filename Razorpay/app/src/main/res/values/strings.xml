@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Razorpay</string>
+    <string name="amount">Amount</string>
+    <string name="pay">PAY</string>
+</resources>

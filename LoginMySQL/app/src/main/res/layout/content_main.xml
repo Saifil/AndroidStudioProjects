@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4ebaaa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.loginmysql.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <EditText
+        android:id="@+id/get_user_id"
+        style="@style/editTextStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:width="250dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/get_pass_id"
+        style="@style/editTextStyles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/get_user_id"
+        android:layout_alignStart="@+id/get_user_id"
+        android:layout_below="@+id/get_user_id"
+        android:layout_marginTop="14dp"
+        android:width="250dp"
+        android:ems="10"
+        android:hint="@string/password_box"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/get_pass_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:width="250dp"
+        android:onClick="onLogin"
+        android:text="@string/go"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textFreeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/get_pass_id"
+        android:layout_alignLeft="@+id/get_user_id"
+        android:layout_alignStart="@+id/get_user_id"
+        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="2dp"
+        android:text="@string/login"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/disp_redirect_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="redirectME"
+        android:text="@string/my_redirect_text"
+        android:textAllCaps="false" />
+</RelativeLayout>

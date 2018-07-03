@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Koffee Shop</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_title">KOFFEE</string>
+    <string name="textview_subtitle">geddit?</string>
+    <string name="button_extra">Button</string>
+    <string-array name="options">
+        <item>Drinks</item>
+        <item>Food</item>
+        <item>Other</item>
+    </string-array>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_drink">DrinkActivity</string>
+    <string name="textview_title_textView">TextView</string>
+    <string name="textview_body">TextView</string>
+</resources>

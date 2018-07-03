@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@mipmap/ic_explore_black_24dp"
+            android:title="Favourite" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@mipmap/ic_account_circle_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/ic_logout_black_48dp"
+            android:title="Logout" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Tools" />-->
+    </group>
+
+    <item android:title="Contact us">
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@mipmap/ic_web_black_24dp"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_ivr"
+                android:icon="@mipmap/ic_phone_black_24dp"
+                android:title="IVR" />
+        </menu>
+    </item>
+
+</menu>

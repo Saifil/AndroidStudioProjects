@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hariyamaback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.hariyamabmi.MainActivityHariyama"
+    tools:showIn="@layout/activity_main_hariyama">
+
+    <TextView
+        android:id="@+id/text_mainScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:background="#0a5789"
+        android:textColor="#e6e3dd"
+        android:padding="3dp"
+        android:textSize="22sp"
+        android:text="@string/textview_mainScreen" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_mainScreen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="131dp"
+        android:background="#0a5789"
+        android:onClick="takeCalculate"
+        android:padding="3dp"
+        android:text="@string/button_textone"
+        android:textColor="#e6e3dd"
+        android:textSize="18sp" />
+</RelativeLayout>

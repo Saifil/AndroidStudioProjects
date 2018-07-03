@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DualPokemon</string>
+    <string name="action_settings">Settings</string>
+    <string name="checkbox_one">Water</string>
+    <string name="checkbox_two">Ice</string>
+    <string name="textview_main">NORMAL</string>
+</resources>

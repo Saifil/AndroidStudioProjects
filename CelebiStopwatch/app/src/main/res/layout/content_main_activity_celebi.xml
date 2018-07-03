@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/celebiback"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.celebistopwatch.MainActivityCelebi"
+    tools:showIn="@layout/activity_main_celebi">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/textDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/textview_title" />
+
+    <TextView
+        android:id="@+id/disp_txt"
+        style="@style/displayTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="@string/displ_text_time" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        style="@style/buttonDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/disp_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:onClick="onStopTimer"
+        android:text="@string/my_btn_one" />
+
+    <Button
+        android:id="@+id/btn_start"
+        style="@style/buttonDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btn_stop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="33dp"
+        android:onClick="onStartTimer"
+        android:text="@string/my_btn_go" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        style="@style/buttonDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btn_stop"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="onResetTimer"
+        android:text="@string/my_btn_two" />
+
+</RelativeLayout>

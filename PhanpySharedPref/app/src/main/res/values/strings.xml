@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhanpySharedPref</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_text">USERNAME</string>
+    <string name="pass_text">PASSWORD</string>
+    <string name="btn_add_text">add</string>
+    <string name="button_display_text">display</string>
+    <string name="textview_display_me">ROLL OUT</string>
+</resources>

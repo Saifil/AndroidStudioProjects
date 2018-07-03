@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Power</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="add_project">Add Project</string>
+    <string name="login">Login</string>
+    <string name="signin">Signin</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="not_a_user_yet_register_here">Not a user yet? <u>register here</u></string>
+    <string name="scan_aadhaar">SCAN AADHAAR</string>
+    <string name="signup">SIgnUp</string>
+    <string name="enter_aadhaar_number">Enter Aadhaar Number</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="register">Registration</string>
+    <string name="women_health_issues">Women Health Issues</string>
+    <string name="fund">FUND</string>
+    <string name="help_women_in_arkavati_to_raise_medical_funds">Help women in Arkavati to raise medical funds.</string>
+    <string name="hehe">₹ 50000 /-</string>
+    <string name="hey">Many women in the district of Arkavati do not have access to Medical care. This is an initiative to provide proper funds to
+    these women, and enchance their medical conditions.</string>
+    <string name="title_activity_start_project">StartProject</string>
+</resources>

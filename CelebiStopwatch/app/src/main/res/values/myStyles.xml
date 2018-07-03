@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textDisplay">
+        <item name="android:background">#abd48e</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#e0f1e9</item>
+    </style>
+    <style name="buttonDisplay">
+        <item name="android:background">#489ec9</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:padding">3dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="displayTime">
+        <item name="android:background">#abd48e</item>
+        <item name="android:textSize">38sp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#e0f1e9</item>
+    </style>
+</resources>

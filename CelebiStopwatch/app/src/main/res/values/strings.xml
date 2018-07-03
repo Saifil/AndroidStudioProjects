@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CelebiStopwatch</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_title">CELEBI STOPWATCH</string>
+    <string name="displ_text_time">69:69:69</string>
+    <string name="my_btn_one">STOP</string>
+    <string name="my_btn_two">RESET</string>
+    <string name="my_btn_go">START</string>
+</resources>

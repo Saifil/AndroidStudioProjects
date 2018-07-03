@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/reset"
+        android:id="@+id/btn_reset"
+        android:icon="@mipmap/ic_refresh_white_24dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:title="@string/edit"
+        android:id="@+id/btn_edit"
+        android:icon="@mipmap/ic_edit_white_24dp"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/settings"
+        android:id="@+id/btn_setting"
+        app:showAsAction="never"/>
+</menu>

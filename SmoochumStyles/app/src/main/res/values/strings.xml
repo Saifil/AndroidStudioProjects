@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SmoochumStyles</string>
+    <string name="action_settings">Settings</string>
+    <string name="textview_one">LOOK</string>
+    <string name="textview_two">AT MY</string>
+    <string name="TextView_three">SWAGGER</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MachampWorkoutAdvisor</string>
+    <string name="action_settings">Settings</string>
+    <string name="edittextinput">THIS MY TEXT</string>
+</resources>

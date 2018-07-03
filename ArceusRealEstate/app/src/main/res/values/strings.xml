@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Arceus Real Estate</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_text">ARCEUS REAL ESTATE</string>
+    <string name="user_name">username</string>
+    <string name="pass_word">password</string>
+    <string name="login_click">login</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="company_email">realestate.arceus@gmail.com</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="todo">TODO</string>
+    <string name="cardonetext">LOCATION</string>
+    <string name="cardtwotext">GALLERY</string>
+    <string name="cardthreetext">TESTIMONIAL</string>
+    <string name="cardfourtext">CONTACT US</string>
+    <string name="title_activity_gallery">Gallery</string>
+    <string name="title_activity_contact">Contact Us</string>
+    <string name="phone_number">phone number</string>
+    <string name="body_text">--body--</string>
+    <string name="submit">submit</string>
+    <string name="contact_us_title">Contact Us</string>
+    <string name="title_activity_testimonial">Testimonial</string>
+    <string name="slowpoke_text">Slowpoke</string>
+    <string name="slow_sub">s-l-o-w-p-o-k-e</string>
+    <string name="ludikolo">Ludikolo</string>
+    <string name="magikarp">Magikarp</string>
+    <string name="ludi_sub">l-u-d-k-o-l-o</string>
+    <string name="karp_sub">k-a-r-p</string>
+    <string name="title_activity_location">Map</string>
+
+</resources>

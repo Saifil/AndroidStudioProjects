@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.saifil.gastlyoverflow.MainActivityGastly">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_fire"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="@string/fire_string"/>
+        <item
+            android:id="@+id/menu_water"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="@string/water_string"/>
+        <item
+            android:id="@+id/menu_grass"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="@string/grass_string"/>
+    </group>
+</menu>

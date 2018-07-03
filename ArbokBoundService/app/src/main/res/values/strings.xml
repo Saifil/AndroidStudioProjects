@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ArbokBoundService</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_txt">BIND</string>
+    <string name="textview_txt">ARBOK I CHOOSE YOU!</string>
+</resources>

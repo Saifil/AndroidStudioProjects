@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="myBlue">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">#e64274</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!--inheritance in style(adopts all the previous style + newly mentioned) -->
+    <style name="myBlue.bigBlue">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="myBlue.biggerBlue">
+        <item name="android:textSize">30sp</item>
+    </style>
+</resources>

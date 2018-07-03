@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_main_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.phanpysharedpref.MainActivityPhanpy"
+    tools:showIn="@layout/activity_main_phanpy">
+
+    <EditText
+        android:id="@+id/usrname_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:width="320dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usrname_id"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/usrname_id"
+        android:layout_marginTop="28dp"
+        android:text="@string/name_text"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pass_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:width="320dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pass_id"
+        android:layout_alignStart="@+id/pass_id"
+        android:layout_below="@+id/usrname_id"
+        android:layout_marginTop="17dp"
+        android:text="@string/pass_text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pass_id"
+        android:layout_alignStart="@+id/pass_id"
+        android:layout_below="@+id/pass_id"
+        android:layout_marginTop="24dp"
+        android:width="120dp"
+        android:onClick="onAddUser"
+        android:text="@string/btn_add_text"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_disp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pass_id"
+        android:layout_alignRight="@+id/pass_id"
+        android:layout_alignTop="@+id/btn_add"
+        android:width="120dp"
+        android:onClick="onDisplayUser"
+        android:text="@string/button_display_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/display_txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_add"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:text="@string/textview_display_me"
+        android:textSize="18sp" />
+</RelativeLayout>

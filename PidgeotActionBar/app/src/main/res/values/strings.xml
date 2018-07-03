@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PidgeotActionBar</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">high</string>
+    <string name="order_name">Fly</string>
+    <string name="order_home">Gust</string>
+</resources>

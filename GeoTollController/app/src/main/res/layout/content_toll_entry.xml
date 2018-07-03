@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.saifil.geotollcontroller.TollEntryActivity"
+    tools:showIn="@layout/activity_toll_entry">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="36dp"
+            android:text="@string/add_toll_text"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/tollname_id"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:ems="10"
+            android:hint="@string/toll_name_text"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/picker_id"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tollname_id"
+            android:layout_centerHorizontal="true"
+            android:onClick="pickLocation"
+            android:text="@string/select_location"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/picker_id"
+            android:layout_below="@+id/picker_id"
+            android:layout_marginTop="11dp"
+            android:text="@string/add_toll_charges_text" />
+
+        <CheckBox
+            android:id="@+id/rtncharge_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/tollname_id"
+            android:layout_alignTop="@+id/textView2"
+            android:text="@string/return_charge_text" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/rtncharge_id"
+            android:text="@string/truck_text" />
+
+        <EditText
+            android:id="@+id/truckS_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView2"
+            android:layout_below="@+id/textView3"
+            android:ems="10"
+            android:hint="@string/single_text"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/truckR_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/truckS_id"
+            android:layout_alignBottom="@+id/truckS_id"
+            android:layout_alignEnd="@+id/rtncharge_id"
+            android:ems="10"
+            android:hint="@string/return_text"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/truckS_id"
+            android:layout_below="@+id/truckS_id"
+            android:layout_marginTop="11dp"
+            android:text="@string/four_wheeler_text" />
+
+        <EditText
+            android:id="@+id/fourS_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView4"
+            android:layout_below="@+id/textView4"
+            android:ems="10"
+            android:hint="@string/single_text"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/fourR_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/fourS_id"
+            android:layout_alignBottom="@+id/fourS_id"
+            android:layout_alignEnd="@+id/rtncharge_id"
+            android:ems="10"
+            android:hint="@string/return_text"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fourS_id"
+            android:layout_below="@+id/fourS_id"
+            android:layout_marginTop="8dp"
+            android:text="@string/two_wheeler_text" />
+
+        <EditText
+            android:id="@+id/twoS_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView5"
+            android:layout_below="@+id/textView5"
+            android:ems="10"
+            android:hint="@string/single_text"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/twoR_id"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/twoS_id"
+            android:layout_alignBottom="@+id/twoS_id"
+            android:layout_alignStart="@+id/fourR_id"
+            android:ems="10"
+            android:hint="@string/return_text"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/submitBrn_id"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_below="@+id/twoS_id"
+            android:layout_marginTop="10dp"
+            android:onClick="addToll"
+            android:text="@string/submit_btn_txt"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</ScrollView>
